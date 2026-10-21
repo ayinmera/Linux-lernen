@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Begrüßung
-        run: echo "Hallo aus dem Linux-Runner!"
+        run: echo "Dein Name ist Meraa"
 
       - name: Wer bin ich?
         run: whoami
@@ -17,7 +17,7 @@ jobs:
         run: pwd
 
       - name: Welches Datum ist heute?
-        run: date
+        run: date +%Y-%m-%d
 
       - name: Welches System läuft hier?
-        run: uname -a
+        run: uname -r

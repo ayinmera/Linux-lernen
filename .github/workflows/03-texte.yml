@@ -43,3 +43,6 @@ jobs:
         if: ${{ inputs.fehlerfall }}
         continue-on-error: true
         run: grep -c "FATAL" daten/server.log
+        
+      - name: Das war ich
+        run: grep -c "INFO" daten/server.log

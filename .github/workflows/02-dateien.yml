@@ -34,6 +34,7 @@ jobs:
           cp daten/einkauf.txt backup/einkauf.txt
           mv arbeit/kopie.txt arbeit/liste.txt
           ls arbeit
+          echo "Butter" >> arbeit/liste.txt
 
       - name: Temporäre Datei löschen
         run: |
